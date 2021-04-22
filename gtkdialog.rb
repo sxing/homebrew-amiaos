@@ -5,8 +5,8 @@ class Gtkdialog < Formula
     url "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/gtkdialog/gtkdialog-0.8.3.tar.gz"
     sha256 "ff89d2d7f1e6488e5df5f895716ac1d4198c2467a2a5dc1f51ab408a2faec38e"
   else
-    url "https://github.com/puppylinux-woof-CE/gtkdialog/archive/0.8.4c.tar.gz"
-    sha256 "fba198ca6aeb347de4e403751245a4c29faa1a57102a2b3413bda1690266ba06"
+    url "https://github.com/puppylinux-woof-CE/gtkdialog/archive/0.8.4d.tar.gz"
+    sha256 "1d3619ef1aca2baa783b936e8c6bd67135621f47428049c8231db9ee366f73db"
   end
   revision 2
 
