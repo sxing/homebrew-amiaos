@@ -22,6 +22,7 @@ class Ffmpegdecklink < Formula
   depends_on "opus"
   depends_on "sdl2"
   depends_on "snappy"
+  depends_on "srt"
   depends_on "theora"
   depends_on "x264"
   depends_on "x265"
@@ -44,6 +45,7 @@ class Ffmpegdecklink < Formula
       --enable-libopenjpeg
       --enable-libopus
       --enable-libsnappy
+      --enable-libsrt
       --enable-libtheora
       --enable-libvorbis
       --enable-libvpx
