@@ -67,15 +67,15 @@ class Ffmpegdecklink < Formula
 
     system "./configure", *args
     system "make"
-    bin.install "ffmpeg" => "ffmpeg-dl"
-    bin.install "ffprobe" => "ffprobe-dl"
-    bin.install "ffplay" => "ffplay-dl"
+    bin.install "ffmpeg" => "ffmpeg-srt"
+    bin.install "ffprobe" => "ffprobe-srt"
+    bin.install "ffplay" => "ffplay-srt"
   end
 
   test do
     # Create an example mp4 file
     mp4out = testpath/"video.mp4"
-    system bin/"ffmpeg-dl", "-filter_complex", "testsrc=rate=1:duration=1", mp4out
+    system bin/"ffmpeg-srt", "-filter_complex", "testsrc=rate=1:duration=1", mp4out
     assert_predicate mp4out, :exist?
   end
 end
