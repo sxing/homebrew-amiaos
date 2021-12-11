@@ -1,5 +1,5 @@
-class Ffmpegdecklink < Formula
-  desc "FFmpeg with --enable-decklink"
+class FFmpegsrt < Formula
+  desc "FFmpeg with --enable-decklink and --enable-libsrt"
   homepage "https://ffmpeg.org/"
   url "https://github.com/FFmpeg/FFmpeg/archive/refs/tags/n4.4.tar.gz"
   sha256 "bea6d9f91cdbe4c5ad98e0878955ad5077df3883ef321fd4668ee1076de793fe"
