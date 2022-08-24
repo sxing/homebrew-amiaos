@@ -68,8 +68,8 @@ class Ffmpegsrt < Formula
     system "./configure", *args
     system "make"
     bin.install "ffmpeg" => "ffmpeg-srt"
-    bin.install "ffprobe" => "ffprobe-srt"
-    bin.install "ffplay" => "ffplay-srt"
+    # bin.install "ffprobe" => "ffprobe-srt"
+    # bin.install "ffplay" => "ffplay-srt"
   end
 
   test do
